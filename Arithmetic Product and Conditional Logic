@@ -1,0 +1,9 @@
+#Exercise: Write a Python function that accepts two integer numbers. If the product of the two numbers is less than or equal to 1000, return their product; otherwise, return their sum.
+def mult_or_sum(num1, num2):
+    product = num1 * num2
+    if product <=1000:
+        print("The result is", product)
+    else:
+        print("The result is",num1 + num2)
+mult_or_sum(20,30)
+mult_or_sum(40,30)
