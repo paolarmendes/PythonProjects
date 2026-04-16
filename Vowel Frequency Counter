@@ -1,0 +1,8 @@
+#Exercise: Write a program to count the total number of vowels (a, e, i, o, u) present in a given sentence.
+sentence = "Learning Python is fun!"
+count = 0 
+vowels = "aeiou"
+for i in sentence.lower():
+    if i in vowels:
+        count += 1 
+print(f"Number of vowels: {count}")
