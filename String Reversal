@@ -1,0 +1,5 @@
+#Exercise: Write a program that takes a string and reverses it (e.g., “Python” becomes “nohtyP”).
+text = "Python"
+rev = text[::-1]
+print (f"Orignial: {text}")
+print(f"Reversed: {rev}")
